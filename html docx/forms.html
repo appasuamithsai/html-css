@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Forms...</title>
+</head>
+<body>
+    <div style="padding: 100px;background-color: green;color: white;width: 50%;">
+    <form action="index.html">
+        Enter Your Name : <br>
+        <input type="text" name="sname" placeholder="Enter Your Name" required>
+        <br>
+        <input type="password" name="password" placeholder="Enter Password" >
+        <br>
+        <input type="email" name="email" placeholder="Enter Your Email" required>
+        <br>
+        <input type="radio" name="gender" value="Male" checked>Male
+        <input type="radio" name="gender" value="Female">Female        
+        <input type="radio" name="gender" value="Other">Other
+        <br>
+        Select Your Occuptation : 
+        <input type="checkbox" name="occupation" checked>Student
+        <input type="checkbox" name="occupation">Intern
+        <input type="checkbox" name="occupation">Other
+        <br>
+        Select Your Country :
+        <select name="country" required>
+            <option value="" selected>Select</option>
+            <option value="uk">USA</option>
+            <option value="india">INDIA</option>
+            <option value="cannada">CANNADA</option>
+            <option value="china">CHINA</option>
+        </select>
+        <br>
+        Languages Know : 
+
+        <select name="country" required multiple size="3">
+    
+            <option value="uk">Telugu</option>
+            <option value="india">English</option>
+            <option value="cannada">Hindi</option>
+        </select>
+        <br>
+        Select Your Section :
+
+        <input name="section" list="secnames">
+        <datalist id="secnames">
+        <select name="sec" >
+            <option value="sec1">Section - 1</option>
+            <option value="sec2">Section - 2</option>
+            <option value="sec3">Section - 3</option>
+            
+        </select>
+        </datalist>
+        <br>
+        Enter Your Comments : 
+        <br>
+        <textarea name="comment" placeholder="Enter Your Comments..." cols="30" rows="10">
+
+        </textarea>
+
+        <br><input type="submit" name="submit">
+
+
+    </form>
+</div>
+</body>
+</html>
