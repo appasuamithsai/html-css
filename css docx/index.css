@@ -1,0 +1,73 @@
+/* types of selectors */
+
+/* 1.Universal Selector - *  */
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid red; */
+}
+/* 2.Element Selector */
+h1{
+    padding: 50px;
+    margin: 20px 20px 20px 20px ;
+    text-align: center;
+    border: 3px solid blue;
+    border-color:red green blue yellow ;
+}
+p{
+  font-size: 20px;
+  text-align: center;
+    text-decoration:line-through navy solid;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-indent: -50px;
+    line-height: 20px;
+    word-spacing: 50px;
+    font-weight: bolder;
+    text-shadow: 5px 5px 2px yellow;
+    white-space: normal;
+}
+
+/*3.Desendant Selector Combinator */
+p b{
+    /*diffrent ways of adding colors */
+    /* 
+         1.Using Color names 
+        2.Using RGB(red,green,blue)
+        3.RGBA(red,green,blue,alpha)
+        4.Hexvalues #ffffff
+        5.HSL hue sautration lighthing
+        6.HSLA hue sautration lighthing alpha
+    */
+    color: saddlebrown;
+}
+/*4. class(.) and id(#) selector */
+.cool{
+    background-color: green;
+    color: white;
+}
+#head6{
+    size: 50px;
+    border: 3px solid rebeccapurple;
+}
+/*5.Child selector Combinator (>)*/
+h4>h5{
+    font-style: italic;
+}
+/* 6.Adjacent Sibiling Selector (+)*/
+div+h3{
+    font-style: oblique;
+}
+
+/*7. Genral Sibiing Combinator (~)*/
+body~p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/*8.Attribute Selector */
+p[type="text"]{
+    background-color: aquamarine;
+    text-align: center;
+}

@@ -1,0 +1,15 @@
+.div_class{
+    width: 60vw;
+    height: 40vh;
+    border: 1px solid red;
+    background-color: lightgreen;
+    background-image: url('paris.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: local;
+    overflow: scroll;
+
+}
+body{
+    background-color: aqua;
+}

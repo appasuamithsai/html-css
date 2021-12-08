@@ -1,0 +1,16 @@
+img{
+    width: 50vw;
+    height: 30vh;
+}
+.div_class{
+    width: 40vw;
+    height: 28.3vh;
+    background-color: blue;
+    color: white;
+    text-align: justify;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px 5px;
+    display: inline-block;
+    vertical-align: top;
+}
